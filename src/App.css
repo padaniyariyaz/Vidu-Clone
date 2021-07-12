@@ -1,0 +1,23 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Avenir Next", sans-serif;
+}
+
+@media (max-width: 620px) {
+  .topnav {
+    display: none;
+  }
+  .mobileNav {
+    display: block;
+  }
+}
+
+@media (min-width: 620px) {
+  .topnav {
+    display: block;
+  }
+  .mobileNav {
+    display: none;
+  }
+}
