@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(to right, #37d5d6, #36096d);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  height: 15px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  border-bottom: 3px solid #000;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid #000;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
